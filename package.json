@@ -1,0 +1,23 @@
+{
+	"name": "alex-jones-bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "bot.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server": "nodemon bot.js",
+		"start": "node bot.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "github:discordjs/discord.js",
+		"express": "^4.17.1",
+		"ffmpeg": "0.0.4",
+		"opusscript": "0.0.7"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	}
+}
